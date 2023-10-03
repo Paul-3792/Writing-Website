@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="icon" href="./assets/images/formyce copy.png" type="image" />
+        <!-- Bootstrap bundle css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section id="contact" class="contact section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-2">
+                    <h2>Payment Method</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis maiores error facere!</p> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-0">
+            <div class="col-md-12 p-0 pt-4 pb-4">
+                <form action="#" id="Form" class="bg-light p-4.m-auto align-items-center">
+                    <div class="row">
+                    <div class="col-md-12">
+                    <div class="mb-3 d-flex form-control-1">
+                        <input type="radio" id="rd1" onclick="Form()" name="link" value="Bank Ussd" class="me-3"> <p class="text-dark mt-3" style="text-transform: uppercase; font-size:25px;">Bank USSD</p>
+                       <button type="button" onclick="location.href='bank.html'" class="ten">Pay Now</button>
+                       <!-- <div class="form-group text-center col-md-12"> -->
+                        
+                            <!-- <a href="#" class="ten">Pay Now</a> -->
+                        <!-- </div> <a href="flutter.html" type="submit" class="ten">Pay Now</a>  -->
+                        <!-- <button type="button" class="pay-now">Pay Now</button> -->
+                        <!-- <a href="bank-app.html" class="btn pay-now">Pay Now</a> -->
+                    </div>
+                    </div>
+                    <div class="col-md-12">
+                    <div class="mb-3 d-flex form-control-1">
+                        <input type="radio" id="rd2" onclick="Form()" name="link" value="Bank App" class="me-3"> <p class="text-dark mt-3" style="text-transform: uppercase; font-size:25px;">Bank Mobile App</p>
+                        <button type="button" onclick="location.href='bank-app.html'" class="ten">Pay Now</button>
+                        <!-- <input type="submit" class="ten" value="Pay Now"> -->
+                        <!-- <button type="button" class="pay-now">Pay Now</button> -->
+                        <!-- <a href="bank-app.html" class="btn pay-now-1">Pay Now</a> -->
+                    </div>
+                    </div>
+                    <!-- <div class="col-md-12">
+                    <div class="mb-3 d-flex form-control">
+                        <input type="radio" class="me-3"> <p class="text-dark mt-3" style="text-transform: uppercase; font-size:25px;">PayStack</p>
+                    </div>
+                    </div> -->
+                    <div class="col-md-12">
+                    <div class="mb-3 d-flex form-control-1">
+                        <input type="radio" id="rd3" onclick="Form()" name="link" value="Flutter" class="me-3"> <p class="text-dark mt-3" style="text-transform: uppercase; font-size:25px;">Flutter Wave</p>
+                        <button type="button" onclick="location.href='https://flutterwave.com/pay/formycecopy'" class="ten">Pay Now</button>
+                        <!-- <input type="button" class="ten submit" value="Pay Now"> -->
+                        <!-- <a type="button" href="#" class="ten submit">Pay Now</a> -->
+                        <!-- <input type="submit" class="ten" value="Pay Now"> -->
+                        <!-- <button type="button" class="pay-now-1">Pay Now</button> -->
+                        <!-- <a href="bank-app.html" class="btn pay-now">Pay Now</a> -->
+                    </div>
+                    </div>
+                    <!-- <div class="col-md-12">
+                    <div class="mb-3">
+                        <input type="tel" class="form-control" required placeholder="Your Phone Nubmer....">
+                    </div>
+                    </div>
+                    <div class="col-md-12">
+                    <div class="mb-3">
+                        <input type="password" class="form-control" name="password" id="pwd" required placeholder="Password"> -->
+                        <!-- <textarea rows="3" required class="form-control" placeholder="Enter Your Message Here"></textarea> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
+
+                    <!-- <button onclick="Form()" class="btn btn-2 btn-lg mt-2">Pay Now</button> -->
+                </div>
+            </div>
+                </form>
+        </div>
+    </div>
+</section>
+
+<!-- <script type="text/javascript"> 
+    function Form(){
+        var bankussd = document.getElementById("rd1").value;
+        var bankapp = document.getElementById("rd2").value;
+        var flutter = document.getElementById("rd3").value;
+    }
+</script> -->
+     <!-- Bootstrap Bundle Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+</html>
